@@ -9,6 +9,17 @@
         
 	<context:component-scan base-package="com.sist.web.controller, com.sist.web.dao"></context:component-scan>
 	
+	<bean name="ds" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"></property>
+		<property name="url" value="jdbc:oracle:thin:@211.238.142.132:1521:orcl"></property>
+		<property name="username" value="JOINUS"></property>
+		<property name="password" value="TJDDUF"></property>
+	</bean>
+	
+	<bean name="jt" class="org.springframework.jdbc.core.JdbcTemplate">
+		<property name="dataSource" ref="ds"></property>
+	</bean>
+	
 	<!-- <bean name="noticeDAO" class="com.sist.dao.NoticeDAO" />
 	<bean name="memberDAO" class="com.sist.dao.MemberDAO" />  --> 
 	
