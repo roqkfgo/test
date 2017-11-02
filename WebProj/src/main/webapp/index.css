@@ -1,0 +1,12 @@
+@import url(css/reset.css);
+@import url(css/base.css);
+@import url(css/layout.css);
+
+body {
+	
+}
+
+#main{
+	height: 300px;
+	background: gray;
+}

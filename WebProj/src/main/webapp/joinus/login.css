@@ -1,0 +1,90 @@
+@import url(../css/joinus.css);
+
+#content h2 {
+	position:absolute;
+	left:36px;
+	top:46px;
+}
+
+#content form 
+{
+    position:absolute;
+	left:84px;
+	top:119px;
+	width:624px;
+	height: 247px;
+	background: url("images/bgLoginBox.png") no-repeat 0px 0px;
+}
+
+#content form h3 {
+	position: absolute;
+	left:28px;
+	top:19px;
+}
+
+#content form ul#loginBox {
+	position:absolute;
+	left:214px;
+	top:77px;
+	font-size: 13px;
+	font-weight: bold;
+	color: #797979;
+}
+
+#content form ul#loginBox li {
+	margin-bottom: 4px;
+}
+
+#content form ul#loginBox li > label 
+{
+    display: inline-block;
+	width:60px;
+	padding-left: 20px;
+}
+
+#content form ul#loginBox input {
+	width:155px;
+	height: 22px;
+	text-indent: 5px;
+}
+
+#content form p {
+	position:absolute;
+	left:454px;
+	top:76px;
+}
+
+#content form ul#loginOption 
+{
+    position: absolute;
+	left:194px;
+	top: 187px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #797979;
+}
+
+#content form ul#loginOption li {
+	margin-bottom: 3px;
+}
+
+#content form ul#loginOption li > span 
+{
+    display: inline-block;
+	width: 248px;
+	padding-left: 20px;
+}
+
+#content form ul#loginOption img 
+{
+    vertical-align: middle;
+}
+
+#btnLogin {
+	border: 0px;    
+    width: 83px;
+    height: 53px;
+    background: url("images/btnLogin.png") no-repeat 0px 0px;
+    text-indent: -999px;
+    overflow: hidden;
+}

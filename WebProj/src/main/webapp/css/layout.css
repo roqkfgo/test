@@ -1,0 +1,174 @@
+
+/*----------------------------*/
+
+
+.top-wrapper {
+	position:relative;
+	width: 960px;
+	height: inherit;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+/*-------------------------------------------
+
+
+#header {
+	height: 70px;	
+}
+
+#header > .top-wrapper > *
+{
+	position: absolute;
+}
+
+#logo{
+	left:0px;
+	top:23px;
+}
+
+#mainmenu{
+	left:200px;
+	top:27px;
+}
+
+#searchform{
+	left:468px;
+	top:21px;
+}
+
+#loginmenu{
+	right:0px;
+	top:20px;
+}
+
+#membermenu{
+	right:0px;
+	top:40px;
+}
+
+/*---------------------------------------*//*
+	visual layout
+*/
+
+#visual {
+	background:#282828 url("../images/bgVisual.png") no-repeat center;
+	height: 171px;
+	border-top: 3px solid #8CBA34;
+	border-bottom: 1px solid #ffffff;
+}
+
+#visual.customer > div.top-wrapper
+{
+	background:url("../customer/images/visual.png") no-repeat center;
+	height: 171px;
+}
+
+#visual.joinus > div.top-wrapper
+{
+	background:url("../joinus/images/visual.png") no-repeat center;
+	height: 171px;
+}
+/*-------------------------------------
+ 	Main layout
+ * */
+#main {	
+	border-top: 5px solid #8CBA34;
+}
+
+#main  .top-wrapper
+{
+	background: #0ff url("../images/bgContent.png") repeat-y 0px 0px;
+}
+
+#content {	
+	float: right;
+	width: 720px; /*755-35*/
+	padding-left:35px;
+	padding-top:45px;
+	padding-bottom:50px;
+	position:relative;
+}
+
+#breadscrumb{
+	position: absolute;
+	top:57px;
+	right: 0px;
+}
+
+#content-searchform
+{
+	margin-top:49px;
+	text-align: right;
+}
+
+#content-searchform fieldset
+{
+	display: inline-block;
+}
+
+#cur-page{
+	text-align: right;
+}
+
+#pager-wrapper
+{
+	text-align: center;
+}
+
+/*----------------------------------------
+  	Navigation layout
+ * */
+
+#navi {	
+	width: 205px;
+	float: left;
+	background: url("../images/bgNaviTitle.png") no-repeat 0px 0px;
+	padding-bottom: 50px;
+}
+
+#navi-menu
+{
+	margin-top:35px;
+}
+
+#fav-title
+{
+	margin-top: 35px;
+}
+
+/*=========== footer =====================================================================================*/
+
+#footer {
+	padding: 20px;
+	background: #282828;
+	height: 265px;
+	clear: both;
+}
+
+#footer h2{
+	float:left;
+}
+
+#footer h2 + p
+{
+	font-weight:bold;
+	float: left; 
+	margin-left: 50px; 
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+#footer h2 + p + p
+{
+	clear:left;
+    display: block;
+	color:#969696;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+
+
+
+
